@@ -15,9 +15,9 @@ const resultsContainer = document.getElementById('results');
 questions = [
     // example of how question object is structured
     {
-        text: "I prefer a strong central government.",      // the actual text of the question, which will appear on screen
-        category: "government",                             // the category by which to score the answer
-        effect: 1                                           // 1 if left/authoritarian/socialist, -1 otherwise
+        text: "I prefer a strong central government.",
+        category: "government",
+        effect: 1
     },
     {
         text: "I believe morality is subjective, rather than objective.",
