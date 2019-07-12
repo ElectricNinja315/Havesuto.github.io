@@ -1,6 +1,7 @@
 
 
 function myFunction() {
+    // God entry
     document.getElementById("myDropdown").classList.toggle("show");
 }
 
@@ -15,4 +16,9 @@ window.onclick = function(event) {
             }
         }
     }
+}
+
+function myFunction2() {
+    // rights entry
+    document.getElementById("myDropdown2").classList.toggle("show");
 }
