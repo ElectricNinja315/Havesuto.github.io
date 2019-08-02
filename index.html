@@ -8,23 +8,28 @@
     <body>
         <h1>Socrates Simulator</h1>
 
-        <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">Does God Exist?</button>
-            <div id="myDropdown" class="dropdown-content">
-                <a href="God/1.html">Yes</a>
-                <a href="God/7.html">No</a>
-            </div>
-        </div>
-        <p>God is defined as an omniscent, omnibenevolent, and omnipotent creator of all things.</p>
-        <br>
+        <h3 id="topicsTitle">Topics</h3>
 
-        <div class="dropdown">
-            <button onclick="myFunction2()" class="dropbtn">Do Rights Exist?</button>
-            <div id="myDropdown2" class="dropdown-content">
-                <a href="Rights/1.html">Yes</a>
-                <a href="Rights/11.html">No</a>
-            </div>
+        <button onclick="openTheology()">Theological Assumptions</button>
+        <div id="theologyTopics">
+            <button onclick="window.location.href = 'GodExistence/0.html'">Does God Exist?</button>
+            <br>
+            <button onclick="window.location.href=''">Can God Have Emotions?</button>
         </div>
-        <p>A right is a title to something which all humans intrinsically have (e.g. life, property, freedom).</p>
+
+        <button onclick="openEthics()">Ethical Assumptions</button>
+        <div id="ethicsTopics">
+            <button onclick="window.location.href = 'Rights/0.html'">Do Natural Rights Exist?</button>
+            <br>
+            <button onclick="window.location.href = ''">Is Morality Subjective or Objective?</button>
+        </div>
+
+        <button onclick="openMetaphysics()">Metaphysical Assumptions</button>
+        <div id="metaphysicsTopics">
+            <button onclick="window.location.href = ''">Is the mind immaterial?</button>
+            <br>
+            <button onclick="window.location.href = ''">Is the Ship of Theseus the same ship?</button>
+        </div>
+      
     </body>
 </html>
