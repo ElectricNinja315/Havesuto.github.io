@@ -1,23 +1,23 @@
 
 function openTheology() {
-    if (document.getElementById("theologyTopics").style.visibility == "visible") {
-        document.getElementById("theologyTopics").style.visibility = "hidden";
+    if (document.getElementById("theologyTopics").style.display == "block") {
+        document.getElementById("theologyTopics").style.display = "none";
     } else {
-        document.getElementById("theologyTopics").style.visibility = "visible";
+        document.getElementById("theologyTopics").style.display = "block";
     }
 }
 
 function openEthics() {
-    if (document.getElementById("ethicsTopics").style.visibility == "visible") {
-        document.getElementById("ethicsTopics").style.visibility = "hidden";
+    if (document.getElementById("ethicsTopics").style.display == "block") {
+        document.getElementById("ethicsTopics").style.display = "none";
     } else {
-        document.getElementById("ethicsTopics").style.visibility = "visible";
+        document.getElementById("ethicsTopics").style.display = "block";
     }
 }
 function openMetaphysics() {
-    if (document.getElementById("metaphysicsTopics").style.visibility == "visible") {
-        document.getElementById("metaphysicsTopics").style.visibility = "hidden";
+    if (document.getElementById("metaphysicsTopics").style.display == "block") {
+        document.getElementById("metaphysicsTopics").style.display = "none";
     } else {
-        document.getElementById("metaphysicsTopics").style.visibility = "visible";
+        document.getElementById("metaphysicsTopics").style.display = "block";
     }
 }

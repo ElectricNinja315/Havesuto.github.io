@@ -43,7 +43,7 @@ button {
 }
 
 #theologyTopics {
-    visibility: hidden;
+    display: none;
 }
 
 #theologyTopics button {
@@ -52,7 +52,7 @@ button {
 }
 
 #ethicsTopics {
-    visibility: hidden;
+    display: none;
 }
 
 #ethicsTopics button {
@@ -61,7 +61,7 @@ button {
 }
 
 #metaphysicsTopics {
-    visibility: hidden;
+    display: none;
 }
 
 #metaphysicsTopics button {
