@@ -6,29 +6,39 @@
         <script src="index.js"></script>
     </head>
     <body>
-        <h1>Socrates Simulator</h1>
+        <h1 style="font-size: 48px; text-align: center">Socrates Simulator</h1>
+        <h3 style="font-size: 30px; text-align: center">Select a topic to continue.</h3>
 
-        <h3 id="topicsTitle">Topics</h3>
 
-        <button onclick="openTheology()">Theological Assumptions</button>
-        <div id="theologyTopics">
-            <button onclick="window.location.href = 'GodExistence/0.html'">Does God Exist?</button>
-            <br>
-            <button onclick="window.location.href=''">Can God Have Emotions?</button>
-        </div>
+        <div class="row">
 
-        <button onclick="openEthics()">Ethical Assumptions</button>
-        <div id="ethicsTopics">
-            <button onclick="window.location.href = 'Rights/0.html'">Do Natural Rights Exist?</button>
-            <br>
-            <button onclick="window.location.href = 'Morals/0.html'">Does morality exist?</button>
-        </div>
+            <div class="column">
+                <button onclick="openTheology()" id="theologyButton">Theological Assumptions</button>
+                <div id="theologyTopics">
+                    <button onclick="window.location.href = 'GodExistence/0.html'">Does God Exist?</button>
+                    <br>
+                    <button onclick="window.location.href=''">Can God Have Emotions?</button>
+                </div>
+            </div>
 
-        <button onclick="openMetaphysics()">Metaphysical Assumptions</button>
-        <div id="metaphysicsTopics">
-            <button onclick="window.location.href = 'Mind/0.html'">Is the mind immaterial?</button>
-            <br>
-            <button onclick="window.location.href = ''">Is the Ship of Theseus the same ship?</button>
+            <div class="column">
+                <button onclick="openEthics()" id="ethicsButton">Ethical Assumptions</button>
+                <div id="ethicsTopics">
+                    <button onclick="window.location.href = 'Rights/0.html'">Do Natural Rights Exist?</button>
+                    <br>
+                    <button onclick="window.location.href = 'Morals/0.html'">Does morality exist?</button>
+                </div>
+            </div>
+
+            <div class="column">
+                <button onclick="openMetaphysics()" id="metaphysicsButton">Metaphysical Assumptions</button>
+                <div id="metaphysicsTopics">
+                    <button onclick="window.location.href = 'Mind/0.html'">Is the mind immaterial?</button>
+                    <br>
+                    <button onclick="window.location.href = ''">Is the Ship of Theseus the same ship?</button>
+                </div>
+            </div>
+                
         </div>
       
     </body>
