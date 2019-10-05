@@ -21,3 +21,10 @@ function openMetaphysics() {
         document.getElementById("metaphysicsTopics").style.display = "block";
     }
 }
+function openPolitics() {
+    if (document.getElementById("politicsTopics").style.display == "block") {
+        document.getElementById("politicsTopics").style.display = "none";
+    } else {
+        document.getElementById("politicsTopics").style.display = "block";
+    }
+}

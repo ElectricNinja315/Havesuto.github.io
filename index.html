@@ -6,6 +6,7 @@
         <script src="index.js"></script>
     </head>
     <body>
+        <img src="img/school.jpg" style="object-fit: cover; opacity: 0.4; position: absolute; z-index: -1; width: 100%; height: 100%"/>
         <h1 style="font-size: 48px; text-align: center">Socrates Simulator</h1>
         <h3 style="font-size: 30px; text-align: center">Select a topic to continue.</h3>
 
@@ -36,6 +37,14 @@
                     <button onclick="window.location.href = 'Mind/0.html'">Is the mind immaterial?</button>
                     <br>
                     <button onclick="window.location.href = 'Ship/0.html'">Is the Ship of Theseus the same ship?</button>
+                </div>
+            </div>
+
+            <div class="column">
+                <button onclick="openPolitics()" id="politicsButton">Political Assumptions</button>
+                <div id="politicsTopics">
+                    <button onclick="window.location.href = 'Tax/0.html'">Is taxation just?</button>
+                    <button onclick="window.location.href = 'DeathPenalty/0.html'">Is the death penalty just?</button>
                 </div>
             </div>
                 
